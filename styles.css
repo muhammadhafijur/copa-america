@@ -24,8 +24,6 @@ header{
 .banner{
     Width: 85%;
     height: 700px;
-    /* display: flex;
-    align-items: center; */
     display: grid;
     grid-template-columns: repeat(2, 50%);
     justify-content: center;
@@ -221,6 +219,88 @@ RESPONSIVE DESIGN
     .players {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+        margin-bottom: 40px;
+    }
+    .highlights{
+        
+        
+    }
+    .highlights h1{
+        font-size: 30px;
+    }
+    .highlights .highlight{
+        
+        display: grid;
+        grid-template-columns: repeat(1, 530px);
+        
+    }
+    .highlight .half-width{
+        
+        
+    }
+    .half-width{
+        
+    }
+    .half-width img{
+        margin-top: 100px;
+        width: 100%;
+    }
+    .player{
+        margin: 0 auto;
+    }
+    .latest-news{
+        margin-top: 40px;
+        grid-template-columns: repeat(1, 420px);
+        column-gap: 100px;
+    }
+    .sponsor{
+        flex-direction: column;
+        height: 800px;
+    }
+    .sponsor .client{
+        flex-direction: column;
+    }
+    .footer-logo img{
+        width: 400px;
+    }
+}
+
+
+/* Tablet Responsive */
+
+@media screen and (min-width: 689px) and (max-width: 992px) {
+    header{
+        width: 100%;
+        height: 390px;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        align-items: center;
+        height: 0px;
+    }
+    .banner .half-banner{
+
+    }
+    .half-banner h1{
+        font-size: 20px;
+    }
+    .half-banner img{
+        width: 100%;
+        margin-top: 140px;
+    }
+    .half-banner .content{
+        
+    }
+    .half-banner a{
+        position: absolute;
+        margin-top: 30px;
+        padding: 20px 34px;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 40px;
         margin-bottom: 40px;
     }
