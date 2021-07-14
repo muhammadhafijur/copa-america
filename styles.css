@@ -329,7 +329,7 @@ RESPONSIVE DESIGN
     }
     .latest-news{
         margin-top: 40px;
-        grid-template-columns: repeat(1, 420px);
+        grid-template-columns: repeat(1, 300px);
         column-gap: 100px;
     }
     .sponsor{
@@ -343,7 +343,8 @@ RESPONSIVE DESIGN
         flex-direction: column;
     }
     .footer-logo img{
-        width: 400px;
+        width: 300px;
+        margin-top: 5px;
     }
 }
 
