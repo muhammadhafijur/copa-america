@@ -18,6 +18,10 @@ header{
     background-color: #2D25A0;
     margin-bottom: 60px;
 }
+header:hover{
+    background-color: #160e8b;
+    transition: 0.4s;
+}
 
 /* Navbar */
 .navbar{
@@ -115,6 +119,11 @@ button:hover{
     padding: 5%;
     background-color: #FFFFFF;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.player:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    transition: 0.4s;
 }
 .player img{
     width: 100%;
@@ -231,6 +240,11 @@ footer{
     color: gray;
     background-color: #969BAB;
     margin-right: 10px;
+}
+.footer-icon i:hover{
+    transform: rotate(45deg);
+    transition: 0.6s;
+    color: #000;
 }
 
 
