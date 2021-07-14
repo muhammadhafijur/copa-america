@@ -24,13 +24,16 @@ header{
 .banner{
     Width: 85%;
     height: 700px;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: center;
     
 }
-.half-banner{
+/* .half-banner{
     width: 50%;
-}
+} */
 .banner .content{
     /* padding: 8%; */
 }
@@ -79,13 +82,12 @@ header{
     margin-bottom: 50px;
 }
 .highlights .highlight{
-    width: 90%;
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
     
 }
 .highlight .half-width{
-    width: 50%;
+    
 }
 .half-width img{
     width: 100%;
@@ -190,19 +192,19 @@ RESPONSIVE DESIGN
 
 @media screen and (max-width: 688px) {
     header{
+        width: 100%;
         height: 800px;
     }
     .banner{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 520px);
     }
     .banner .half-banner{
         /* background-color: green; */
-        padding: 0px 100px;
+        /* padding: 0px 100px; */
     }
     .half-banner h1{
-        font-size: 40px;
+        font-size: 70px;
     }
     .half-banner img{
         width: 100%;
@@ -223,25 +225,24 @@ RESPONSIVE DESIGN
         margin-bottom: 40px;
     }
     .highlights{
-        width: 100%;
-        background-color: royalblue;
+        
+        
     }
     .highlights h1{
         font-size: 30px;
     }
     .highlights .highlight{
-        width: 100%;
-        flex-direction: column;
+        
+        display: grid;
+        grid-template-columns: repeat(1, 530px);
         
     }
-    .highlight{
-        /* width: 100%;
-        flex-direction: column; */
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+    .highlight .half-width{
+        
+        
     }
     .half-width{
-        width: 50%;
+        
     }
     .half-width img{
         margin-top: 100px;
