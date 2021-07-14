@@ -17,8 +17,7 @@ a{
 header{
     width: 100%;
     background-color: #2D25A0;
-    display: flex;
-    justify-content: center;
+    
     margin-bottom: 60px;
 }
 .banner{
@@ -27,6 +26,9 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 50%);
     justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* margin: 0 auto; */
     
 }
 /* .half-banner{
@@ -73,15 +75,17 @@ header{
 
 /* Highlights */
 .highlights{
-    Width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    
     margin-bottom: 50px;
 }
 .highlights .highlight{
+    width: 85%;
     display: grid;
     grid-template-columns: repeat(2, 50%);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     
 }
 .highlight .half-width{
@@ -103,6 +107,7 @@ header{
 }
 .highlights h1{
     color: #000;
+    font-size: 70px;
 }
 .highlights p{
     line-height: 40px;
@@ -195,17 +200,17 @@ RESPONSIVE DESIGN
     }
     .banner{
         display: grid;
-        grid-template-columns: repeat(1, 520px);
+        grid-template-columns: repeat(1, 420px);
     }
     .banner .half-banner{
         /* background-color: green; */
         /* padding: 0px 100px; */
     }
     .half-banner h1{
-        font-size: 70px;
+        font-size: 40px;
     }
     .half-banner img{
-        width: 100%;
+        width: 90%;
         margin-top: 140px;
     }
     .half-banner h1{
@@ -222,17 +227,18 @@ RESPONSIVE DESIGN
         grid-gap: 40px;
         margin-bottom: 40px;
     }
-    .highlights{
-        
+    .highlights .content{
+        padding: 7%;
         
     }
     .highlights h1{
         font-size: 30px;
     }
     .highlights .highlight{
-        
+        justify-content: center;
+        align-items: center;
         display: grid;
-        grid-template-columns: repeat(1, 530px);
+        grid-template-columns: repeat(1, 420px);
         
     }
     .highlight .half-width{
@@ -244,10 +250,10 @@ RESPONSIVE DESIGN
     }
     .half-width img{
         margin-top: 100px;
-        width: 100%;
+        width: 90%;
     }
     .player{
-        margin: 0 auto;
+        
     }
     .latest-news{
         margin-top: 40px;
