@@ -6,8 +6,6 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    /* background-color: #F3F1FF; */
-    
     background-color: #FFFFFF;
 }
 a{
@@ -18,7 +16,6 @@ header{
     width: 100%;
     height: 750px;
     background-color: #2D25A0;
-    
     margin-bottom: 60px;
 }
 
@@ -259,8 +256,8 @@ RESPONSIVE DESIGN
     }
     .navbar .login{
         margin: 0 auto;
-        
     }
+    
     .nav__links .logo{
         /* text-align: center; */
     }
@@ -372,10 +369,9 @@ RESPONSIVE DESIGN
     }
     .half-banner img{
         width: 100%;
-        margin-top: 140px;
     }
     .half-banner .content{
-        
+        padding: 0;
     }
     .half-banner a{
         position: absolute;
@@ -422,7 +418,10 @@ RESPONSIVE DESIGN
     }
     .sponsor{
         flex-direction: column;
-        height: 800px;
+        height: 700px;
+    }
+    .sponsor-title{
+        margin-top: 200px;
     }
     .sponsor .client{
         flex-direction: column;
