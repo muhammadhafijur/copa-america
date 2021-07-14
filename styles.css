@@ -193,7 +193,8 @@ RESPONSIVE DESIGN
     .players {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-bottom: 3000px;
+        grid-gap: 0px;
+        grid-gap: 40px;
     }
     .highlights{
         
