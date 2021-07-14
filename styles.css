@@ -16,10 +16,13 @@ a{
 }
 header{
     width: 100%;
+    height: 750px;
     background-color: #2D25A0;
     
     margin-bottom: 60px;
 }
+
+/* Navbar */
 .navbar{
     display: flex;
     justify-content: flex-start;
@@ -68,22 +71,19 @@ button:hover{
     background-color: #b80e4c;
 }
 
-
-
+/* Banner */
 
 .banner{
     Width: 85%;
-    height: 700px;
+    height: 595px;
     display: grid;
     grid-template-columns: repeat(2, 50%);
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    /* margin: 0 auto; */
-    
 }
 .banner .content{
-    /* padding: 8%; */
+    
 }
 .half-banner h1{
     font-size: 64px;
@@ -127,6 +127,7 @@ button:hover{
 }
 
 /* Highlights */
+
 .highlights{
     width: 100%;
     margin-bottom: 50px;
@@ -167,7 +168,7 @@ button:hover{
     line-height: 40px;
 }
 .highlights .content{
-    /* padding: 7%; */
+
 }
 
 /* Latest News */
@@ -238,12 +239,6 @@ footer{
 
 
 
-
-
-
-
-
-
 /*
 -----------------
 RESPONSIVE DESIGN 
@@ -257,11 +252,10 @@ RESPONSIVE DESIGN
         width: 100%;
         height: 800px;
     }
+    /* navbar */
     .navbar{
         padding: 0;
         text-align: center;
-        
-
     }
     .navbar .login{
         margin: 0 auto;
@@ -276,9 +270,11 @@ RESPONSIVE DESIGN
         justify-content: center;
         padding: 0; */
     }
+
+    /* Banner */
     .banner{
         display: grid;
-        grid-template-columns: repeat(1, 500px);
+        grid-template-columns: repeat(1, 300px);
     }
     .banner .half-banner{
     }
@@ -286,7 +282,7 @@ RESPONSIVE DESIGN
         font-size: 40px;
     }
     .half-banner img{
-        width: 500px;
+        width: 300px;
         margin-top: 140px;
     }
     .half-banner h1{
@@ -314,7 +310,7 @@ RESPONSIVE DESIGN
         justify-content: center;
         align-items: center;
         display: grid;
-        grid-template-columns: repeat(1, 420px);
+        grid-template-columns: repeat(1, 300px);
         
     }
     .highlight .half-width{
@@ -339,6 +335,9 @@ RESPONSIVE DESIGN
     .sponsor{
         flex-direction: column;
         height: 800px;
+    }
+    .sponsor-title{
+        margin-top: 200px;
     }
     .sponsor .client{
         flex-direction: column;
