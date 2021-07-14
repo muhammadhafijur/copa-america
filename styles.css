@@ -178,6 +178,12 @@ button:hover{
 }
 
 /* Latest News */
+.latest-title{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 100px;
+}
 .latest-news{
     display: grid;
     width: 90%;
