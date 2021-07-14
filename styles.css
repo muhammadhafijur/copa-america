@@ -31,9 +31,6 @@ header{
     /* margin: 0 auto; */
     
 }
-/* .half-banner{
-    width: 50%;
-} */
 .banner .content{
     /* padding: 8%; */
 }
@@ -44,6 +41,8 @@ header{
 .half-banner a{
     background-color: #E02C6D;
     padding: 10px 24px;
+    margin-top: 20px;
+    position: absolute;
 }
 .half-banner a:hover{
     background-color: #E02C6D;
@@ -285,6 +284,9 @@ RESPONSIVE DESIGN
         grid-template-columns: repeat(2, 300px);
         align-items: center;
         height: 0px;
+    }
+    .banner .content{
+        padding: 100px;
     }
     .banner .half-banner{
 
