@@ -166,13 +166,23 @@ RESPONSIVE DESIGN
 
 @media screen and (max-width: 688px) {
     header{
-        
+        height: 800px;
     }
     .banner{
-        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
     .banner .half-banner{
         background-color: green;
+        margin: 0;
+        padding: 0;
+    }
+    .half-banner img{
+        margin-top: 80px;
+    }
+    .half-banner a{
+        padding: 20px 34px;
     }
     .players {
         display: grid;
@@ -197,6 +207,9 @@ RESPONSIVE DESIGN
     .sponsor{
         flex-direction: column;
         height: 800px;
+    }
+    .sponsor .client{
+        flex-direction: column;
     }
     .footer-logo img{
         width: 100px;
